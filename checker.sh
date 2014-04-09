@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # TODO: write something that has microsecond timer.
 
@@ -8,14 +8,14 @@ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 function timer()
 {
     if [[ $# -eq 0 ]]; then
-        echo $(date '+%s')
+        echo $(date '+%s%N')
     else
         local  stime=$1
-        etime=$(date '+%s')
+        etime=$(date '+%s%N')
 
         if [[ -z "$stime" ]]; then stime=$etime; fi
 
-        dt=$((etime - stime))
+        dt=$(((etime - stime)/1000000))
 				echo $dt
     fi
 }
