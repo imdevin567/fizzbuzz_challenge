@@ -14,3 +14,4 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 
 1. Ruby - 24.3ms
 2. PHP - 32.7ms
+3. Javascript - 60.3ms
