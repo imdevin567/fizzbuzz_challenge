@@ -12,3 +12,4 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 
 **Each test was run 3 times on a Dell XPS 13 i7 with 8GB RAM**
 1. Ruby - 24.3ms
+2. PHP - 32.7ms
