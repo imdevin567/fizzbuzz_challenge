@@ -1,3 +1,5 @@
+// Java(TM) SE Runtime Environment (build 1.7.0_21-b11)
+
 public class Fizzbuzz {
 	public static void main(String args[]) {
 		for (int n = 1; n <= 100; n++) {
