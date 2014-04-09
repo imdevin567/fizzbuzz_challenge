@@ -17,3 +17,4 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 1. Python - 25.3ms
 1. PHP - 32.7ms
 1. Javascript - 60.3ms
+1. Java - 66.0ms
